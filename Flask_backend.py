@@ -8,7 +8,7 @@ app = Flask(__name__)
 # Load the model and tokenizer
 import torch
 model_id = "meta-llama/Meta-Llama-3-8B-Instruct"
-access_token = "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"
+access_token = "access token"
 pipeline = transformers.pipeline(
     "text-generation",
     model=model_id,
